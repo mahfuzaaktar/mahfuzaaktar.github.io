@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Myself</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Myself</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Result</a></li>
-      <li><a href="#">Image</a></li>
-    </ul>
+<div class="container-fluid">
+  <h1>Responsive Columns</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+  <div class="row">
+    <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
+    <div class="col-sm-3" style="background-color:lavenderblush;">.col-sm-3</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
   </div>
-</nav>
-  
+</div>
 
+<div class="container-fluid">
+        <h1>Responsive Columns</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
+        <div class="row">
+          <div class="col-md-3" style="background-color:lavender;">.col-md-3</div>
+          <div class="col-md-3" style="background-color:lavenderblush;">.col-md-3</div>
+          <div class="col-md-4" style="background-color:lavender;">.col-md-4</div>
+          <div class="col-md-2" style="background-color:lavenderblush;">.col-md-2</div>
+        </div>
+      </div>
 
 </body>
 </html>
